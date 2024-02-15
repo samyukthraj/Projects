@@ -1,0 +1,135 @@
+body{
+    background-image: url(cat3.jpeg);
+    background-size: cover;
+    
+}
+
+.centerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+
+.firstone{
+    
+    padding: 15px 15px 15px 15px;
+    font-size: 30px;
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px black;
+}
+
+h1{
+    text-align: center;
+}
+
+.boxes{
+    margin: 30px;
+    
+}
+
+.user{
+    height: 40px;
+    border-radius: 5px;
+    font-family: sevillana;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    width: 0px;
+    outline: 0;
+    font-size: 20px;
+    color: white;
+    transition: 0.25s ease-in-out all;
+}
+
+.per{
+    height: 40px;
+    border-radius: 5px;
+    font-family: sevillana;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    width: 0px;
+    outline: 0;
+    font-size: 20px;
+    color: white;
+    transition: 0.25s ease-in-out all;
+}
+
+
+.movebtn{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.slidebtn{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.user.open{
+    width: 300px;
+    padding-left: 3px;
+    border: 2px black solid;   
+}
+
+.per.open{
+    width: 300px;
+    padding-left: 3px;
+    border: 2px black solid;   
+}
+
+
+.last{
+    font-size: 20px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.firstone h5{
+    font-size: 20px;
+    align-items: center; 
+    padding-left: 70px;    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.one{
+    padding-left: 90px;
+}
+
+.btn{
+    
+    font-size: 30px;
+    margin-left: 70px;
+    border: solid 3px black;
+    border-radius: 20px;
+    width: 320px;
+    font-family: noto serif;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 0 10px black;
+}
+
+::placeholder{
+    color: black;
+    font-weight: 600;
+}
+
